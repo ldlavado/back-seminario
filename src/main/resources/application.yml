@@ -25,7 +25,7 @@ spring:
       maximum-pool-size: 10
 
 server:
-  port: ${api_port}
+  port: ${PORT:8080}
   servlet:
     encoding:
       charset: UTF-8
